@@ -3,7 +3,7 @@ Gem::Specification.new do |spec|
   spec.version       = "1.0.0"
   spec.authors       = ["Loren Segal"]
   spec.email         = ["lsegal@soen.ca"]
-  spec.description   = "YARD plugin to build a sitemap.xml for generated HTML documentation."
+  spec.summary       = "YARD plugin to build a sitemap.xml for generated HTML documentation."
   spec.homepage      = "http://github.com/lsegal/yard-sitemap"
   spec.license       = "MIT"
 
