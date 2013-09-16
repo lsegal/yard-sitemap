@@ -18,8 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-Simply activate the plugin when running YARD:
+Simply activate the plugin when running YARD, setting the SITEMAP_BASEURL
+environment variable with the base URL of your site:
 
-    yard doc --plugin sitemap
+    SITEMAP_BASEURL=http://example.org yard doc --plugin sitemap
 
 [1]: http://yardoc.org

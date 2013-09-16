@@ -24,6 +24,7 @@ module YARD
         next unless File.file?(file)
         mtime = File.mtime(file)
         fname = file.sub(/^#{Regexp.quote basedir}\//, '')
+        fname = File.join(ENV['SITEMAP_BASEURL'] || 'http://', fname)
         data << "  <url>\n"
         data << "    <loc>#{fname}</loc>\n"
         data << "    <lastmod>#{mtime.iso8601}</lastmod>\n"
